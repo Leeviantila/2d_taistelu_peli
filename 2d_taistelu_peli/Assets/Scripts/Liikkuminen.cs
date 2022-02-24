@@ -6,7 +6,7 @@ public class Liikkuminen : MonoBehaviour
 {
     // Start is called before the first frame update
     
- 
+
     // [SerializeField] on turvallisempi vaihtoehto
     [SerializeField]
     private float _nopeus = 5f;
