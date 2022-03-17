@@ -27,11 +27,13 @@ public class Taisteleminen : MonoBehaviour
     Hp_Manager _Hp_Manger;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
         
         _Hp_Manger = GetComponent<Hp_Manager>();
+        
 
 
     }
@@ -39,6 +41,44 @@ public class Taisteleminen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        if(!_onkoSuojaus && !_hyokkays && _coolDownTimer <= 0){
+            
+            if(Input.GetButtonDown("Fire1")){
+                
+                Lyonti();
+            }
+            
+            if(Input.GetButtonDown("Fire2")){
+                
+                Potku();
+            }
+
+        }
+
+        if(Input.GetButtonDown("Fire3")){
+            
+            Suojaus_alku();
+            
+        }
+
+        if(Input.GetButtonDown("Fire3")){
+            
+            Suojaus_loppu();
+            
+        }    
+        
+        if(_hyokkays){ // Huono tapa !!! coroutine parempi
+            
+            if(_coolDownTimer > 0){
+                
+                _coolDownTimer -= Time.deltaTime;
+            }
+
+            else{
+                _hyokkays = false;
+            }
+        }
         
     }
 
@@ -50,23 +90,54 @@ public class Taisteleminen : MonoBehaviour
             
             foreach (Collider2D enemy in _enemyHit){
                 
-                if(enemy.gameObject != this.gameObject){
-                    enemy.GetComponent<Hp_Manager>().VahingonOtto(_vahinko);
+                if(_osuma == false){
+                    if(enemy.gameObject != this.gameObject){
+                        enemy.GetComponent<Hp_Manager>().VahingonOtto(_vahinko);
 
 
+                    }
                 }
-                
             }
+
+            _osuma = false;
             
         }
         
+        _hyokkays = true;
+        _coolDownTimer = _coolDown;
         
+    }
+
+    private void Lyonti(){
+        
+        // Animaatiot
+
+        Hyokkays(_lyonticheck, _lyontiVahinko);
+        
+    }
+
+    private void Potku(){
+        
+        // Animaatiot
+
+        Hyokkays(_potkucheck, _potkuVahinko);
         
     }
 
 
+    private void Suojaus_alku(){
+    
+    // Animaatiot
 
+        _onkoSuojaus = true;    
+    }
 
+    private void Suojaus_loppu(){
+    
+        // Animaatiot
+
+        _onkoSuojaus = false;    
+    }
 
 
 

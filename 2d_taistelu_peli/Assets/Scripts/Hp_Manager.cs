@@ -23,11 +23,14 @@ public class Hp_Manager : MonoBehaviour
 
     Liikkuminen _liikkuminenScript;
 
+    Taisteleminen _taisteleminenScript;
+
     // Start is called before the first frame update
     void Start()
     {
         _RB =  GetComponent<Rigidbody2D>();
         _liikkuminenScript = GetComponent<Liikkuminen>();
+        _taisteleminenScript = GetComponent<Taisteleminen>();
 
         _hp = _maxHp;
         
@@ -44,8 +47,15 @@ public class Hp_Manager : MonoBehaviour
 
         if(!_ottaaVahinkoa){
 
-            _hp -= _vahingonMaara;
-            StartCoroutine(VahinkoAjastin());
+            if(_taisteleminenScript._onkoSuojaus){
+                
+                _hp -= _vahingonMaara/2;
+            }
+
+            else{
+                _hp -= _vahingonMaara;
+                StartCoroutine(VahinkoAjastin());
+            }
             
         }
 
