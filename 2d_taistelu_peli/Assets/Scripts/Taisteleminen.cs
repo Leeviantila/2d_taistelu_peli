@@ -42,6 +42,10 @@ public class Taisteleminen : MonoBehaviour
     void Update()
     {
         
+        if(_Hp_Manger._ottaaVahinkoa){
+            return;
+        }
+
         if(!_onkoSuojaus && !_hyokkays && _coolDownTimer <= 0){
             
             if(Input.GetButtonDown("Fire1")){

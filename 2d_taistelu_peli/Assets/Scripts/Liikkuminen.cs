@@ -22,29 +22,36 @@ public class Liikkuminen : MonoBehaviour
     public int _kohdeSuunta = 1;
     public LayerMask _layerMask;
     
-    
+    Hp_Manager _Hp_Manger;
     
     void Start()
     {
         
-       // _Rb2D = .GetComponent<Rigidbody2D>;
+       _Rb2D = GetComponent<Rigidbody2D>();
+       _Hp_Manger = GetComponent<Hp_Manager>();
 
     }
 
     // Update is called once per frame
     void Update(){
         
-        Hyppy();
-        
+        if(!_Hp_Manger._ottaaVahinkoa){
+            
+            Hyppy();
+            
+        }
         
     }
 
 
     void FixedUpdate() {
         
-        Liiku();
         
-         
+        if(!_Hp_Manger._ottaaVahinkoa){
+            
+            Liiku();
+            
+        }
         
     }
 
@@ -54,6 +61,7 @@ public class Liikkuminen : MonoBehaviour
 
         //Liikkuminen sivuille
         _horizontalMovement = Input.GetAxis("Horizontal");
+        
         _Rb2D.velocity = new Vector2(_horizontalMovement * _nopeus, _Rb2D.velocity.y);
 
     }
@@ -64,7 +72,7 @@ public class Liikkuminen : MonoBehaviour
         _horizontalMovement = Input.GetAxis("Horizontal");
 
         if(Input.GetButtonDown("Jump") && _jalat.IsTouchingLayers(_layerMask)){
-
+            
             _Rb2D.AddForce(new Vector2(0f, _hyppyVoima), ForceMode2D.Impulse);
 
 
