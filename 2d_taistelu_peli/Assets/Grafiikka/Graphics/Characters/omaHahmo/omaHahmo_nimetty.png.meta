@@ -1,0 +1,1071 @@
+fileFormatVersion: 2
+guid: fc28ec8c71c0de64e8044227fadbfb8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5835750376684229782
+    second: omaHahmo_nimetty_0
+  - first:
+      213: -1800356328255741438
+    second: omaHahmo_nimetty_1
+  - first:
+      213: 4324107424560647566
+    second: omaHahmo_nimetty_2
+  - first:
+      213: 5151612423896121030
+    second: omaHahmo_nimetty_3
+  - first:
+      213: 7478494192260078554
+    second: omaHahmo_nimetty_4
+  - first:
+      213: -8387485747653257439
+    second: omaHahmo_nimetty_5
+  - first:
+      213: 7519440632322899699
+    second: omaHahmo_nimetty_6
+  - first:
+      213: 714694663672219837
+    second: omaHahmo_nimetty_7
+  - first:
+      213: -1009942036537788786
+    second: omaHahmo_nimetty_8
+  - first:
+      213: -3456576314931658030
+    second: omaHahmo_nimetty_9
+  - first:
+      213: -8250338862168437561
+    second: omaHahmo_nimetty_10
+  - first:
+      213: 7847636629921301802
+    second: omaHahmo_nimetty_11
+  - first:
+      213: -1498150312931350781
+    second: omaHahmo_nimetty_12
+  - first:
+      213: 1990739956775242842
+    second: omaHahmo_nimetty_13
+  - first:
+      213: -8076629607156300643
+    second: omaHahmo_nimetty_14
+  - first:
+      213: 8138978223425180337
+    second: omaHahmo_nimetty_15
+  - first:
+      213: -2789257626339133241
+    second: omaHahmo_nimetty_16
+  - first:
+      213: 7161980306123271331
+    second: omaHahmo_nimetty_17
+  - first:
+      213: -887538056720303190
+    second: omaHahmo_nimetty_18
+  - first:
+      213: -6621637171891483854
+    second: omaHahmo_nimetty_19
+  - first:
+      213: 8911858990093298381
+    second: omaHahmo_nimetty_20
+  - first:
+      213: -257631443437635921
+    second: omaHahmo_nimetty_21
+  - first:
+      213: -1124003629040448063
+    second: omaHahmo_nimetty_22
+  - first:
+      213: 3138034134918343238
+    second: omaHahmo_nimetty_23
+  - first:
+      213: -5237284122179085736
+    second: omaHahmo_nimetty_24
+  - first:
+      213: -1514342351560697329
+    second: omaHahmo_nimetty_25
+  - first:
+      213: -5559504000526245744
+    second: omaHahmo_nimetty_26
+  - first:
+      213: 5514911162868324480
+    second: omaHahmo_nimetty_27
+  - first:
+      213: 97069338068533904
+    second: omaHahmo_nimetty_28
+  - first:
+      213: 5506904043909785468
+    second: omaHahmo_nimetty_29
+  - first:
+      213: -3172312973656701993
+    second: omaHahmo_nimetty_30
+  - first:
+      213: 6523471221133205349
+    second: omaHahmo_nimetty_31
+  - first:
+      213: 6011469760196071503
+    second: omaHahmo_nimetty_32
+  - first:
+      213: -7287388506519219685
+    second: omaHahmo_nimetty_33
+  - first:
+      213: 439764077275593422
+    second: omaHahmo_nimetty_34
+  - first:
+      213: 357106104142643695
+    second: omaHahmo_nimetty_35
+  - first:
+      213: -3152325679976908856
+    second: omaHahmo_nimetty_36
+  - first:
+      213: -2897313953095768216
+    second: omaHahmo_nimetty_37
+  - first:
+      213: 5532001130509729681
+    second: omaHahmo_nimetty_38
+  - first:
+      213: 4773070040042857970
+    second: omaHahmo_nimetty_39
+  - first:
+      213: -5465016587815707217
+    second: omaHahmo_nimetty_40
+  - first:
+      213: 6756206571332277897
+    second: omaHahmo_nimetty_41
+  - first:
+      213: -3988516273660429173
+    second: omaHahmo_nimetty_42
+  - first:
+      213: 3292084317413735115
+    second: omaHahmo_nimetty_43
+  - first:
+      213: 2621337713351860759
+    second: omaHahmo_nimetty_44
+  - first:
+      213: -5822401761341292716
+    second: omaHahmo_nimetty_45
+  - first:
+      213: -1421764159337983139
+    second: omaHahmo_nimetty_46
+  - first:
+      213: -1404604307578844630
+    second: omaHahmo_nimetty_47
+  - first:
+      213: 4212353025740233420
+    second: omaHahmo_nimetty_48
+  - first:
+      213: -8122987057193054074
+    second: omaHahmo_nimetty_49
+  - first:
+      213: -3723759931815889230
+    second: omaHahmo_nimetty_50
+  - first:
+      213: -6757301442289390091
+    second: omaHahmo_nimetty_51
+  - first:
+      213: 1942811485627473247
+    second: omaHahmo_nimetty_52
+  - first:
+      213: -6469351927042511567
+    second: omaHahmo_nimetty_53
+  - first:
+      213: -2943813760597235053
+    second: omaHahmo_nimetty_54
+  - first:
+      213: -2546892624105578479
+    second: omaHahmo_nimetty_55
+  - first:
+      213: 7452312687344789012
+    second: omaHahmo_nimetty_56
+  - first:
+      213: -7882298904736986297
+    second: omaHahmo_nimetty_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4711
+        width: 383
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b62e793ff330fa0800000000000000
+      internalID: -5835750376684229782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4580
+        width: 242
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202a0394579d307e0800000000000000
+      internalID: -1800356328255741438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_2
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 4580
+        width: 246
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d0193eac0520c30800000000000000
+      internalID: 4324107424560647566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_3
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 4580
+        width: 247
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce31d284343e7740800000000000000
+      internalID: 5151612423896121030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_4
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 4582
+        width: 247
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbdb7858d2f8c760800000000000000
+      internalID: 7478494192260078554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4150
+        width: 383
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127d97cb62aa99b80800000000000000
+      internalID: -8387485747653257439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3973
+        width: 316
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3febe375a6b6a5860800000000000000
+      internalID: 7519440632322899699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_7
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 3973
+        width: 333
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8cc0f820b1be900800000000000000
+      internalID: 714694663672219837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3978
+        width: 316
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e863e649117fbf1f0800000000000000
+      internalID: -1009942036537788786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3472
+        width: 383
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d24871c726c700d0800000000000000
+      internalID: -3456576314931658030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3304
+        width: 232
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc89db5488e08d80800000000000000
+      internalID: -8250338862168437561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_11
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 3304
+        width: 301
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a258dc4bfe768ec60800000000000000
+      internalID: 7847636629921301802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_12
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 3319
+        width: 233
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30726995a30853be0800000000000000
+      internalID: -1498150312931350781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2887
+        width: 381
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cc3cb717780ab10800000000000000
+      internalID: 1990739956775242842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2731
+        width: 231
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94cb030a2c0aef80800000000000000
+      internalID: -8076629607156300643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_15
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2724
+        width: 227
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2d5e1729573f070800000000000000
+      internalID: 8138978223425180337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_16
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2714
+        width: 229
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8b10b87f09a49d0800000000000000
+      internalID: -2789257626339133241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2262
+        width: 383
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac22d28427746360800000000000000
+      internalID: 7161980306123271331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_18
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2112
+        width: 269
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabbb8cf6d4dea3f0800000000000000
+      internalID: -887538056720303190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 2112
+        width: 274
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bc2e933183b14a0800000000000000
+      internalID: -6621637171891483854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_20
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 2109
+        width: 271
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcae1e0d8884dab70800000000000000
+      internalID: 8911858990093298381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1685
+        width: 327
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6bde23195bc6cf0800000000000000
+      internalID: -257631443437635921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1581
+        width: 242
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4bc497acb660f0800000000000000
+      internalID: -1124003629040448063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_23
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1581
+        width: 247
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aabd07b698c8b20800000000000000
+      internalID: 3138034134918343238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_24
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1586
+        width: 242
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad8b5d6dd6157b0800000000000000
+      internalID: -5237284122179085736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_25
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 579
+        width: 261
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a15e297a9fbfae0800000000000000
+      internalID: -1514342351560697329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1211
+        width: 349
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0902549219ca8d2b0800000000000000
+      internalID: -5559504000526245744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_27
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1068
+        width: 242
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0885a9ebb76e88c40800000000000000
+      internalID: 5514911162868324480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1127
+        width: 287
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09248267c0cd85100800000000000000
+      internalID: 97069338068533904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 315
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a7651d047c6c40800000000000000
+      internalID: 5506904043909785468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 581
+        width: 242
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d344d8782ea9f3d0800000000000000
+      internalID: -3172312973656701993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_31
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 581
+        width: 232
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd0264386088a50800000000000000
+      internalID: 6523471221133205349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_32
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 581
+        width: 230
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f405d7295e70d6350800000000000000
+      internalID: 6011469760196071503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 349
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1258a873cefdda90800000000000000
+      internalID: -7287388506519219685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 65
+        width: 229
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca3dfa291b5a1600800000000000000
+      internalID: 439764077275593422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_35
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 65
+        width: 306
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1cb841c12b4f400800000000000000
+      internalID: 357106104142643695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omaHahmo_nimetty_36
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 43
+        width: 232
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c772acee70b044d0800000000000000
+      internalID: -3152325679976908856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
