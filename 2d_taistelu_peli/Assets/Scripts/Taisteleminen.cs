@@ -24,7 +24,12 @@ public class Taisteleminen : MonoBehaviour
 
     private int _animationIndex;
 
+    public Animator _animator;
+    
+    
     Hp_Manager _Hp_Manger;
+
+    
 
 
 
@@ -33,7 +38,8 @@ public class Taisteleminen : MonoBehaviour
     {
         
         _Hp_Manger = GetComponent<Hp_Manager>();
-        
+        _animator = GetComponent<Animator>();
+
 
 
     }
@@ -49,12 +55,15 @@ public class Taisteleminen : MonoBehaviour
         if(!_onkoSuojaus && !_hyokkays && _coolDownTimer <= 0){
             
             if(Input.GetButtonDown("Fire1")){
-                
+
+                _animator.SetTrigger("_löyntiVasemmalle_A");               
                 Lyonti();
+
             }
             
             if(Input.GetButtonDown("Fire2")){
-                
+
+                _animator.SetTrigger("_potkuVasen_A");               
                 Potku();
             }
 
@@ -98,7 +107,6 @@ public class Taisteleminen : MonoBehaviour
                     if(enemy.gameObject != this.gameObject){
                         enemy.GetComponent<Hp_Manager>().VahingonOtto(_vahinko);
 
-
                     }
                 }
             }
@@ -131,7 +139,7 @@ public class Taisteleminen : MonoBehaviour
 
     private void Suojaus_alku(){
     
-    // Animaatiot
+        // Animaatiot
 
         _onkoSuojaus = true;    
     }
