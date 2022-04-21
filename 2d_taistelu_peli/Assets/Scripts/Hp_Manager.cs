@@ -21,6 +21,8 @@ public class Hp_Manager : MonoBehaviour
     public float _knockBackX = -2.5f;
     public float _knockBackY = 2.5f;
 
+    public bool _isDummy;
+
     Liikkuminen _liikkuminenScript;
 
     Taisteleminen _taisteleminenScript;
@@ -57,6 +59,7 @@ public class Hp_Manager : MonoBehaviour
                 StartCoroutine(VahinkoAjastin());
             }
             
+            Debug.Log(_hp);
         }
 
 

@@ -64,6 +64,12 @@ public class Liikkuminen : MonoBehaviour
 
     void Liiku(){
 
+
+        if(_Hp_Manger._isDummy){
+
+            return;
+        }
+
         //Liikkuminen sivuille
         _horizontalMovement = Input.GetAxis("Horizontal");
         
@@ -76,11 +82,18 @@ public class Liikkuminen : MonoBehaviour
 
     void Hyppy(){
 
+
+        if(_Hp_Manger._isDummy){
+
+            return;
+        }
+
         //Hyppääminen
         _horizontalMovement = Input.GetAxis("Horizontal");
 
         if(Input.GetButtonDown("Jump") && _jalat.IsTouchingLayers(_layerMask)){
-            
+        
+
             _Rb2D.AddForce(new Vector2(0f, _hyppyVoima), ForceMode2D.Impulse);
             _animator.SetTrigger("_hyppy_A");
             

@@ -54,6 +54,12 @@ public class Taisteleminen : MonoBehaviour
 
         if(!_onkoSuojaus && !_hyokkays && _coolDownTimer <= 0){
             
+            if(_Hp_Manger._isDummy){
+
+                return;
+            }
+
+
             if(Input.GetButtonDown("Fire1")){
 
                 _animator.SetTrigger("_löyntiVasemmalle_A");               
@@ -70,12 +76,23 @@ public class Taisteleminen : MonoBehaviour
         }
 
         if(Input.GetButtonDown("Fire3")){
-            
+
+
+            if(_Hp_Manger._isDummy){
+
+                return;
+            }
+
             Suojaus_alku();
             
         }
 
         if(Input.GetButtonDown("Fire3")){
+
+            if(_Hp_Manger._isDummy){
+
+                return;
+            }            
             
             Suojaus_loppu();
             
