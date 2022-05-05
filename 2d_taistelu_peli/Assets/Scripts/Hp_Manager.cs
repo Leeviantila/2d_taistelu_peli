@@ -22,10 +22,13 @@ public class Hp_Manager : MonoBehaviour
     public float _knockBackY = 2.5f;
 
     public bool _isDummy;
+    public bool _onElossa{get; private set;}
 
     Liikkuminen _liikkuminenScript;
 
     Taisteleminen _taisteleminenScript;
+
+    Animator _animator;
 
     // Start is called before the first frame update
     void Start()
@@ -33,8 +36,10 @@ public class Hp_Manager : MonoBehaviour
         _RB =  GetComponent<Rigidbody2D>();
         _liikkuminenScript = GetComponent<Liikkuminen>();
         _taisteleminenScript = GetComponent<Taisteleminen>();
+        _animator = GetComponent<Animator>();
 
         _hp = _maxHp;
+        _onElossa = true;
         
         
     }
@@ -46,6 +51,10 @@ public class Hp_Manager : MonoBehaviour
     }
 
     public void VahingonOtto(int _vahingonMaara){
+
+        if(_onElossa == false){
+            return;
+        }
 
         if(!_ottaaVahinkoa){
 
@@ -63,8 +72,9 @@ public class Hp_Manager : MonoBehaviour
         }
 
 
-        if(_hp <= 0){
+        if(_hp <= 0 && _onElossa == true){
             Kuole();
+            _onElossa = false;
 
         }
 
@@ -76,8 +86,11 @@ public class Hp_Manager : MonoBehaviour
 
     private void Kuole()
     {
-        throw new NotImplementedException(); // Tyhjän funktion alustaminen ns. Python return tyhjässä funktiossa
+        //throw new NotImplementedException(); // Tyhjän funktion alustaminen ns. Python return tyhjässä funktiossa
         // Kuoleminen
+
+        // Ei kunnollista kuolemis animaatiota tehtynä!!!!!!!!!!!!!!
+        _animator.SetTrigger("_Kuoleminen_A");
     }
 
 

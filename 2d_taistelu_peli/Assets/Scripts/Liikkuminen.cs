@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,13 +20,16 @@ public class Liikkuminen : MonoBehaviour
 
     private float _horizontalMovement = 0f;
     
-    public int _kohdeSuunta = 1;
+    public int _kohdeSuunta = 1; // Kertoo pelaajan suunnan
     public LayerMask _layerMask;
     
     public Animator _animator;
     
     Hp_Manager _Hp_Manger;
     
+
+
+    public Transform _vihollinenSijainti;
 
 
     void Start()
@@ -40,6 +44,13 @@ public class Liikkuminen : MonoBehaviour
     // Update is called once per frame
     void Update(){
         
+        if(_Hp_Manger._onElossa == false){
+            return;
+        }
+
+
+        TarkistaSuunta();
+
         if(!_Hp_Manger._ottaaVahinkoa){
             
             Hyppy();
@@ -48,9 +59,49 @@ public class Liikkuminen : MonoBehaviour
         
     }
 
+    private void TarkistaSuunta()
+    {
+        Vector3 _suunta = (_vihollinenSijainti.position - transform.position).normalized;
+
+        if(_Hp_Manger._isDummy){
+            
+            
+            
+        }
+        else{
+            
+            if(_kohdeSuunta == 1){
+                
+               if(_suunta.x < - 0.5f){
+
+                   Käännös();
+               } 
+                
+            }
+            else{
+                if(_suunta.x > - 0.5f){
+
+                   Käännös();
+               } 
+                
+            }
+            
+        }
+        
+    }
+
+    private void Käännös()
+    {
+        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+        _kohdeSuunta = (int)transform.localScale.x;
+        
+    }   
 
     void FixedUpdate() {
         
+        if(_Hp_Manger._onElossa == false){
+            return;
+        }        
         
         if(!_Hp_Manger._ottaaVahinkoa){
             

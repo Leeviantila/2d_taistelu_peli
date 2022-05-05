@@ -9178,7 +9178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nopeus: 5
-  _hyppyVoima: 8
+  _hyppyVoima: 18
   _Rb2D: {fileID: 439417924}
   _jalat: {fileID: 439417925}
   _kohdeSuunta: 1
@@ -9186,6 +9186,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   _animator: {fileID: 0}
+  _vihollinenSijainti: {fileID: 842029332}
 --- !u!114 &439417927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9601,6 +9602,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   _animator: {fileID: 0}
+  _vihollinenSijainti: {fileID: 439417922}
 --- !u!58 &842029328
 CircleCollider2D:
   m_ObjectHideFlags: 0

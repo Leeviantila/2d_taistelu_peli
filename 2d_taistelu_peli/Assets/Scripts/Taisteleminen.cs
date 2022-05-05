@@ -22,8 +22,6 @@ public class Taisteleminen : MonoBehaviour
     private bool _hyokkays = false;
     private bool _osuma = false;
 
-    private int _animationIndex;
-
     public Animator _animator;
     
     
@@ -47,6 +45,10 @@ public class Taisteleminen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(_Hp_Manger._onElossa == false){
+            return;
+        }
         
         if(_Hp_Manger._ottaaVahinkoa){
             return;
@@ -62,15 +64,38 @@ public class Taisteleminen : MonoBehaviour
 
             if(Input.GetButtonDown("Fire1")){
 
-                _animator.SetTrigger("_löyntiVasemmalle_A");               
-                Lyonti();
+
+                if(Random.Range(0, 2) == 0){
+
+                    _animator.SetTrigger("_löyntiVasemmalle_A");               
+                    Lyonti();
+
+                }
+                else{
+                    _animator.SetTrigger("_lyöntiOikea_A");               
+                    Lyonti();
+
+                }
+
+
 
             }
             
             if(Input.GetButtonDown("Fire2")){
 
-                _animator.SetTrigger("_potkuVasen_A");               
-                Potku();
+
+                if(Random.Range(0, 2) == 0){
+
+                    _animator.SetTrigger("_potkuVasen_A");               
+                    Potku();
+                }
+                else{
+                    _animator.SetTrigger("_potkuOikea_A");               
+                    Potku();
+
+
+                }
+
             }
 
         }
